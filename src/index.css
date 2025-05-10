@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import "tailwindcss";
+
+/* Base layer */
+@layer base {
+  body {
+    font-weight: 400;
+    font-family: "Eurostile";
+    --font-family-sans-serif: "Poppins", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
+    background-color: #326cb5;
+  }
+}
+
+/* Custom theme variables */
+@theme {
+  --color-primary: #f8e4c9;
+  --color-secondary: #f8e4c9;
+  --color-headerbordertext: #51087e;
+}
+/* #fec624 */
+/* Utilities for solid background and text */
+@utility bg-primary {
+  background-color: var(--color-primary);
+}
+
+@utility text-primary {
+  color: var(--color-primary);
+}
+
+/* Gradient utility */
+@layer utilities {
+  .text-gradient-primary {
+    background: linear-gradient(
+      to right,
+      var(--color-primary),
+      var(--color-secondary)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+}
