@@ -1,7 +1,4 @@
 import { useState } from "react";
-// import CustomButton from "../CustomButton";
-// import CustomInput from "../CustomInput";
-// import CustomDropdown from "../CustomDropdown";
 import { addDoc, collection } from "firebase/firestore";
 import {
   db,
@@ -11,6 +8,9 @@ import {
   PhoneAuthProvider,
   signInWithCredential,
 } from "../../Firebase";
+import CustomInput from "../allcustoms/CustomInput";
+import CustomDropdown from "../allcustoms/CustomDropdown";
+import CustomButton from "../allcustoms/CustomButton";
 
 export default function Form() {
   const [otpSent, setOtpSent] = useState(false);

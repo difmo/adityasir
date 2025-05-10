@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-import CustomButton from "../CustomButton";
-import CustomInput from "../CustomInput";
-import CustomCheckbox from "../CustomCheckbox";
-import CustomDropdown from "../CustomDropdown";
 import {
   db,
   RecaptchaVerifier,
@@ -12,6 +8,9 @@ import {
 import { doc, setDoc, serverTimestamp } from "firebase/firestore";
 import img from "../../assets/logo1.jpeg";
 import StudentCheckbox from "../StudentCheckbox";
+import CustomButton from "../allcustoms/CustomButton";
+import CustomInput from "../allcustoms/CustomInput";
+import CustomCheckbox from "../allcustoms/CustomCheckbox";
 
 const boards = ["CBSE", "IB", "IGCSE", "ICSE", "ISC"];
 const subjects = ["Sci.", "Phy", "Chem", "Bio", "Maths", "Other"];

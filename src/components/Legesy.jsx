@@ -2,9 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-import CustomHeading from "./CustomHeading";
+// import CustomHeading from "./CustomHeading";
 import TestimonialSlider from "./TestimonialSlider";
 import AboutUs from "./AboutUs";
+import CustomHeading from "./allcustoms/CustomHeading";
 
 // Animation variants
 const fadeInLeft = {
