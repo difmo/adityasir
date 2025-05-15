@@ -11,28 +11,28 @@ import vikas4 from "../../assets/homeslider/vikas4.png";
 const slides = [
   {
     image: vikas0,
-    heading: "Hi, Looking for Online Science Tutor ",
+    heading: "Hi, Looking for Chemistry Tutor, CBSE Board.",
     text: "You are at the Right Place, Kindly fill the Form to Get in Touch or Whatsapp us ... ",
   },
   {
     image: vikas1,
-    heading: "Hi, Looking for Online Physics Tutor ",
+    heading: "Hi, Looking for Chemistry Tutor, IB Board.",
     text: "You are at the Right Place, Kindly fill the Form to Get in Touch or Whatsapp us ... ",
   },
   {
     image: vikas2,
-    heading: "Hi, Looking for Online Chemistry Tutor ",
+    heading: "Hi, Looking for Chemistry Tutor, IGCSE Board.",
     text: "You are at the Right Place, Kindly fill the Form to Get in Touch or Whatsapp us ... ",
   },
   {
     image: vikas4,
-    heading: "Hi, Looking for Online Maths Tutor ",
+    heading: "Hi, Looking for Chemistry Tutor, ICSE Board.",
     text: "You are at the Right Place, Kindly fill the Form to Get in Touch or Whatsapp us ... ",
   },
   {
     image: vikas3,
-    heading: "Hi, Looking for Online Biology Tutor ",
-    text: "You are at the Right Place, Kindly fill the Form to Get in Touch or Whatsapp us ... ",
+    heading: "Hi, Looking for Chemistry Tutor, ISC Board.",
+    text: "For Board, NEET, IIT-JEE Preparation. Kindly fill the Form to Get in Touch or Whatsapp us ... ",
   },
 ];
 
@@ -77,7 +77,7 @@ const MainSlider = () => {
             ease: "linear",
           }}
         >
-          A Most Trusted Website to Hire, Best Online Private Tutors for the
+          A Right Place to Hire a best Online/Offline Private Chemistry Tutor for the
           Students of &nbsp; USA - CANADA - UK - QATAR - UAE - AUSTRALIA -
           INDIA.
         </motion.div>

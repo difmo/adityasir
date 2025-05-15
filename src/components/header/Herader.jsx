@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "../../assets/logo1.jpeg";
+import logo from "../../assets/logos.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +31,8 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img src={logo} alt="Logo" className="h-11 border-2" />
+          <img src={logo} alt="Logo" className="h-11 " />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <h1 className="text-[#E27712] text-2xl text-center">Chemistry Tuition for Class 11th, 12th, CUET, NEET & IIT-JEE (Mains & Advance) by  Aditya sir. </h1>
         </Link>
 
         {/* Mobile Menu Button */}

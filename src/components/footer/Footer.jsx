@@ -20,9 +20,9 @@ const socialLinks = [
   },
   {
     icon: <FaInstagram />,
-    url: "https://www.instagram.com/onlinephysicsguru?igsh=cWwzY3ptMXluaGps&utm_source=qr",
+    url: "https://www.instagram.com/chemistry_classes_delhi?igsh=MXNwbm1qbGprbTUwbw%3D%3D&utm_source=qr",
   },
-  { icon: <FaWhatsapp />, url: "https://wa.me/919582699555" },
+  { icon: <FaWhatsapp />, url: "http://wa.me/919798867171" },
 ];
 
 const courses = [
@@ -58,10 +58,10 @@ export default function Footer() {
               </p>
               <p className="flex items-center mb-2">
                 {" "}
-                Contact No : +91 84273 73281
+                Contact No : +91 9334454757
               </p>
               <p className="flex items-center mb-7 text-2xl ">
-                info@vikasinstitute.in
+                info@adityasir.in
               </p>
 
               <div className="flex space-x-4 mb-4">
@@ -80,7 +80,7 @@ export default function Footer() {
             {/* Our Courses */}
             <div>
               <h2 className="text-orange-500 text-xl font-semibold mb-4">
-                Hire Online Private Tutors :
+                Hire Online Chemistry Tutor :
               </h2>
               {footerLinks.map((link, index) => (
                 <li>
@@ -106,7 +106,7 @@ export default function Footer() {
                 NEWSLETTER :
               </h2>
               <p className="mb-4 flex text-left">
-                We specialize in providing personalized One to One tutors,
+                I am specialized in providing personalized One to One tutoring,
                 across the students of the USA, CANADA, UK, QATAR, UAE, INDIA
                 and AUSTRALIA.
               </p>
@@ -129,9 +129,9 @@ export default function Footer() {
             <div>
               <p>
                 <span className="text-orange-500">
-                  Vikas Institute @ SYBRA CORPORATION. &nbsp;
+                  adityasir.in  @ All Rights Reserved. 
                 </span>
-                All Rights Reserved.{"  "}
+                 , Designed & Developed by Nita Infotech. &nbsp; {"  "}
               </p>
             </div>
             <div className="flex space-x-4 mt-3 md:mt-0">

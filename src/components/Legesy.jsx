@@ -39,22 +39,22 @@ const Legacy = () => {
     {
       title: "BOARDS",
       description: [
-        "11000+ Students Scored more than 90%",
+        "1100+ Students Scored more than 90%",
         "CBSE,  IB, IGCSE,   ICSE, ISE",
       ],
     },
     {
       title: "NEET",
       description: [
-        "7000+ Students Qualified.",
+        "700+ Students Qualified.",
         "2100+ Students Scored 650+ Marks",
       ],
     },
     {
       title: "IIT-JEE",
       description: [
-        "5000+ Students Qualified.",
-        "3100+ Students Scored 150+ Marks",
+        "500+ Students Qualified.",
+        "310+ Students Scored 150+ Marks",
       ],
     },
   ];
@@ -64,8 +64,8 @@ const Legacy = () => {
       <div className="container mx-auto px-4 py-10">
         {/* Heading */}
         <div className="text-center mb-10 bg-[#dba577] py-3 rounded-lg border-2 border-white">
-          <h1 className="text-[#51087E] text-5xl font-bold">
-            Our 11 Years of Legacy in Edutech Industries.
+          <h1 className="text-[#51087E] text-3xl font-bold">
+            Our 15 Years of Legacy in Chemistry Tutoring & Mentorship.
           </h1>
         </div>
 
@@ -92,6 +92,13 @@ const Legacy = () => {
             </motion.div>
           ))}
         </div>
+
+            {/* Heading */}
+        <div className="text-center mb-10 bg-[#dba577] py-3 rounded-lg border-2 border-white">
+          <h1 className="text-[#51087E] text-3xl font-bold">
+            Online Services Availble  for CBSE, IGCSE, IB, ICSE, ISC Boards for Global Students
+          </h1>
+        </div>
         <AboutUs />
         {/* Testimonials Section */}
         <motion.div
@@ -103,6 +110,14 @@ const Legacy = () => {
           className="w-full"
         >
           <div className="text-center mt-8">
+           
+                {/* Heading */}
+        <div className="text-center mb-10 bg-[#dba577] py-3 rounded-lg border-2 border-white">
+          <h1 className="text-[#51087E] text-3xl font-bold">
+            Note : I am Certified Chemistry Tutor for IGCSE, IB & ISC Boards, According to the Global Standard.
+          </h1>
+        </div>
+
             <div className="bg-[#dba577] w-full inline-block px-4 text-5xl font-bold py-2 rounded-lg border-2 border-white">
               <CustomHeading text1="Testimonials..." />
             </div>
@@ -116,6 +131,9 @@ const Legacy = () => {
             </p>
           </div>
           <TestimonialSlider />
+          <div className='bg-lime-300 px-4 py-4 ring-amber-700 rounded-lg border-2 border-white'>
+           <a href="https://www.google.com/search?q=physics+and+chemistry+tutors&rlz=1C1GCEU_en-GBIN1160&oq=&gs_lcrp=EgZjaHJvbWUqCQgAEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkxNTY5ajBqMTWoAgiwAgHxBRQCVrbXObmJ&sourceid=chrome&ie=UTF-8&lqi=ChxwaHlzaWNzIGFuZCBjaGVtaXN0cnkgdHV0b3JzSP_-qc21uICACFoqEAAQARACEAMYAhgDIhxwaHlzaWNzIGFuZCBjaGVtaXN0cnkgdHV0b3JzkgENcHJpdmF0ZV90dXRvcqoBZxABKiAiHHBoeXNpY3MgYW5kIGNoZW1pc3RyeSB0dXRvcnMoADIfEAEiG712YqSjYBdn3KkEBBAT2ZxHtptv8D-90q27JTIgEAIiHHBoeXNpY3MgYW5kIGNoZW1pc3RyeSB0dXRvcnM#rlimm=8478423721784788813:~:text=https%3A//g.co/kgs/ApYMx6A"> <h1 className='text-center items-center text-4xl'> See more review </h1></a>
+          </div>
           {/* <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8 xl:gap-10 mt-6 px-4">
             {testimonials.map((testimonial, idx) => (
               <div
