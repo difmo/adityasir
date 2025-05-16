@@ -13,14 +13,9 @@ import CustomDropdown from "../allcustoms/CustomDropdown";
 import CustomButton from "../allcustoms/CustomButton";
 
 export default function Form() {
-  const [otpSent, setOtpSent] = useState(false);
-  const [otp, setOtp] = useState("");
-  const [otpVerified, setOtpVerified] = useState(false);
-  const [verificationId, setVerificationId] = useState("");
   const [selectedClassType, setSelectedClassType] = useState("Select Class");
   const [selectedCountryCode, setSelectedCountryCode] = useState("+91");
   const [selectedLevel, setSelectedLevel] = useState("");
-  const [experienceLevel, setExperienceLevel] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -67,9 +62,7 @@ export default function Form() {
     setSelectedLevel(level);
   };
 
-  const handleExperienceChange = (e) => {
-    setExperienceLevel(e.target.value);
-  };
+ 
 
   const validateForm = () => {
     let formErrors = { ...errors };
@@ -121,55 +114,11 @@ export default function Form() {
     return isValid;
   };
 
-  const handleSendOTP = async () => {
-    if (!validateForm()) return;
-
-    try {
-      if (!window.recaptchaVerifier) {
-        window.recaptchaVerifier = new RecaptchaVerifier(auth, "recaptcha", {
-          size: "invisible",
-          callback: (response) => {
-            console.log("reCAPTCHA solved:", response);
-          },
-        });
-      }
-
-      const appVerifier = window.recaptchaVerifier;
-      const phoneNumber = selectedCountryCode + formData.phone;
-
-      const confirmationResult = await signInWithPhoneNumber(
-        auth,
-        phoneNumber,
-        appVerifier
-      );
-      setVerificationId(confirmationResult.verificationId);
-      setOtpSent(true);
-      alert("OTP sent successfully!");
-    } catch (error) {
-      console.error("Error sending OTP:", error.message);
-      alert("Error: " + error.message);
-    }
-  };
-
-  const handleVerifyOTP = () => {
-    if (!otp || !verificationId) return alert("Please enter the OTP.");
-
-    const credential = PhoneAuthProvider.credential(verificationId, otp);
-    signInWithCredential(auth, credential)
-      .then(() => {
-        setOtpVerified(true);
-        alert("OTP verified successfully!");
-      })
-      .catch((error) => {
-        console.error("OTP Verification Error:", error);
-        alert("Invalid OTP. Please try again.");
-      });
-  };
 
   const sendFormDataToEmail = async () => {
     try {
       const response = await fetch(
-        "https://us-central1-vip-home-tutors.cloudfunctions.net/sendTeachersForm",
+        "https://us-central1-vip-home-tutors.cloudfunctions.net/sendTeachersFormAdityaSir",
         {
           method: "POST",
           headers: {
@@ -182,7 +131,6 @@ export default function Form() {
             level: selectedLevel,
             board: formData.board,
             subjects: formData.subjects,
-            experienceLevel: experienceLevel,
             timestamp: new Date().toISOString(),
           }),
         }
@@ -203,29 +151,13 @@ export default function Form() {
 
   const handleFinalSubmit = async (e) => {
     e.preventDefault();
-    if (!experienceLevel) {
-      alert("Please select your experience level.");
-      return;
-    }
-
+     if (!validateForm()) return;
     try {
-      await addDoc(collection(db, "Vikasrequests"), {
-        name: formData.name,
-        phone: selectedCountryCode + formData.phone,
-        classType: selectedClassType,
-        level: selectedLevel,
-        board: formData.board,
-        subjects: formData.subjects,
-        experienceLevel,
-        timestamp: new Date(),
-      });
       await sendFormDataToEmail();
-      setOtpVerified(false);
       alert("Form submitted successfully!");
     } catch (err) {
       alert("Something went wrong. Please try again later.");
       console.error(err);
-      setOtpVerified(false);
     }
   };
 
@@ -340,88 +272,18 @@ export default function Form() {
       />
       {errors.level && <p className="text-red-500 text-sm">{errors.level}</p>}
 
-      <div id="recaptcha"></div>
-
-      {!otpSent ? (
-        <div className="text-center -pt-2 ">
-          <CustomButton
-            onClick={handleSendOTP}
-            className="text-[#51087E] hover:bg-primary bg-[#dba577] text-xl font-bold"
-            label="Get OTP"
-          />
-        </div>
-      ) : !otpVerified ? (
-        <div className="">
-          <CustomInput
-            placeholder="Enter OTP"
-            name="otp"
-            value={otp}
-            onChange={(e) => setOtp(e.target.value)}
-          />
-          <div className="text-center pt-2">
-            <CustomButton
-              onClick={handleVerifyOTP}
-              className="bg-[#51087E] text-white font-bold"
-              label="Verify OTP"
-            />
-          </div>
-        </div>
-      ) : (
-        <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
-          <form
+   <form
             onSubmit={handleFinalSubmit}
-            className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md"
+            className="bg-white p-2 rounded-lg shadow-lg w-full max-w-md"
           >
-            <h3 className="text-lg font-semibold mb-4 text-center text-[#51087E]">
-              Select Experience Level and Fee Range
-            </h3>
-            <div className="space-y-3">
-              <label className="block">
-                <input
-                  type="radio"
-                  name="experience"
-                  value="expert"
-                  checked={experienceLevel === "expert"}
-                  onChange={handleExperienceChange}
-                  className="mr-2"
-                />
-                Master/Expert Level (10+ years) – ₹3000 to ₹7000/hr
-              </label>
-
-              <label className="block">
-                <input
-                  type="radio"
-                  name="experience"
-                  value="proficient"
-                  checked={experienceLevel === "proficient"}
-                  onChange={handleExperienceChange}
-                  className="mr-2"
-                />
-                Proficient Level (5–10 years) – ₹2000 to ₹3000/hr
-              </label>
-
-              <label className="block">
-                <input
-                  type="radio"
-                  name="experience"
-                  value="intermediate"
-                  checked={experienceLevel === "intermediate"}
-                  onChange={handleExperienceChange}
-                  className="mr-2"
-                />
-                Intermediate Level (5 years) – ₹1000 to ₹1500/hr
-              </label>
-            </div>
-
+            
             <button
               type="submit"
-              className="mt-6 w-full px-4 py-2 bg-[#dba577] hover:bg-[#c38e50] text-white font-bold rounded"
+              className="mt-1 w-full px-4 py-2 bg-[#dba577] hover:bg-[#c38e50] text-white font-bold rounded"
             >
               Submit
             </button>
           </form>
-        </div>
-      )}
     </div>
   );
 }

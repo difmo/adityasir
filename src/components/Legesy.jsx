@@ -132,7 +132,7 @@ const Legacy = () => {
           </div>
           <TestimonialSlider />
           <div className='bg-lime-300 px-4 py-4 ring-amber-700 rounded-lg border-2 border-white'>
-           <a href="https://www.google.com/search?q=physics+and+chemistry+tutors&rlz=1C1GCEU_en-GBIN1160&oq=&gs_lcrp=EgZjaHJvbWUqCQgAEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkxNTY5ajBqMTWoAgiwAgHxBRQCVrbXObmJ&sourceid=chrome&ie=UTF-8&lqi=ChxwaHlzaWNzIGFuZCBjaGVtaXN0cnkgdHV0b3JzSP_-qc21uICACFoqEAAQARACEAMYAhgDIhxwaHlzaWNzIGFuZCBjaGVtaXN0cnkgdHV0b3JzkgENcHJpdmF0ZV90dXRvcqoBZxABKiAiHHBoeXNpY3MgYW5kIGNoZW1pc3RyeSB0dXRvcnMoADIfEAEiG712YqSjYBdn3KkEBBAT2ZxHtptv8D-90q27JTIgEAIiHHBoeXNpY3MgYW5kIGNoZW1pc3RyeSB0dXRvcnM#rlimm=8478423721784788813:~:text=https%3A//g.co/kgs/ApYMx6A"> <h1 className='text-center items-center text-4xl'> See more review </h1></a>
+           <a href=" https://g.co/kgs/FSkXXnh"> <h1 className='text-center items-center text-4xl'> See more review </h1></a>
           </div>
           {/* <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8 xl:gap-10 mt-6 px-4">
             {testimonials.map((testimonial, idx) => (

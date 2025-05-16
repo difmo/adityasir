@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "../../assets/logos.png";
+import logo from "../../assets/sss.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img src={logo} alt="Logo" className="h-11 " />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <h1 className="text-[#E27712] text-2xl text-center">Chemistry Tuition for Class 11th, 12th, CUET, NEET & IIT-JEE (Mains & Advance) by  Aditya sir. </h1>
+          <h1 className="text-[#E27712] text-2xl text-center">Chem Prep. by Aditya Sir</h1>
         </Link>
 
         {/* Mobile Menu Button */}
