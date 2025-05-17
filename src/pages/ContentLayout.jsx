@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import {
-  onlinePhysicsTutors,
+  onlineChemistryTutors,
   onlineChemistryTutors,
   onlineMathsTutors,
   onlineBiologyTutors,
@@ -14,14 +14,14 @@ import bio from "../assets/bgsvg/bio.jpeg";
 import chem from "../assets/bgsvg/chwmi.jpeg";
 import math from "../assets/math.jpeg";
 const dataMap = {
-  "online-physics-tutors": onlinePhysicsTutors,
+  "online-Chemistry-tutors": onlineChemistryTutors,
   "online-chemistry-tutors": onlineChemistryTutors,
   "online-maths-tutors": onlineMathsTutors,
   "online-biology-tutors": onlineBiologyTutors,
 };
 
 const imageMap = {
-  physics: phy,
+  Chemistry: phy,
   biology: bio,
   chemistry: chem,
   maths: math,

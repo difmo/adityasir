@@ -212,14 +212,14 @@ export default function Form() {
       <div className="pb-1">
         <label className="block font-semibold mb- text-sm sm:text-base">
           Select Subjects :
-          <span className="text-sm text-[#ebe9e7]">
+          <span className="text-sm text-[#3609d6]">
             &nbsp;(You can Select Multiples)
           </span>
         </label>
         <div className="grid grid-cols-3 gap- ">
           {[
             "Science",
-            "Physics",
+            "Chemistry",
             "Chemistry",
             "Maths",
             "Biology",

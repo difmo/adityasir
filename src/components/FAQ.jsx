@@ -34,7 +34,7 @@ const faqs = [
     answer: [
       "Absolutely. Aditya Sir, is a highly qualified but also thoroughly verified to ensure they meet the highest standards of educational excellence and trustworthiness.",
       "1. Strong Academic Background",
-      "All our tutors hold degrees from reputed institutions, with specialization in subjects like Physics, Math, Chemistry, Biology, and more, based on the curriculum they teach. We cater to CBSE, ICSE, IGCSE, IB, and American Curriculum students, and our tutors are selected accordingly to match the academic standards of each board.",
+      "All our tutors hold degrees from reputed institutions, with specialization in subjects like Chemistry, Math, Chemistry, Biology, and more, based on the curriculum they teach. We cater to CBSE, ICSE, IGCSE, IB, and American Curriculum students, and our tutors are selected accordingly to match the academic standards of each board.",
       "2 . Rigorous Selection Process",
       "Each tutor goes through a multi-stage selection process that includes:",
       "• Application and screening",

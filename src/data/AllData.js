@@ -2,92 +2,92 @@ import phy from "../assets/tutr.jpg";
 import phy1 from "../assets/a.jpg";
 // AllData.js
 
-const onlinePhysicsTutors = [
-  {
-    mainHeadding: "Online Physics Tutors",
-    mainTitle:
-      "Hello, Are you Looking for  Online Physics Tutor for Class 11th, 12th, CUET, NEET, IIT-JEE for  CBSE, IB, IGCSE, ICSE, ISE Board Students ?",
-    welcomeMessage:
-      "Welcome to Online Personal Physics Tutor @ Vikas Institute, your ultimate destination for top-quality online Physics tutoring. We specialize in Physics education for students following the CBSE, IB, IGCSE, ICSE, and ISE curricula across the UAE, Qatar, USA, UK, Canada, Australia, and India. With our team of highly skilled Physics tutors, customized learning plans, and student-focused online classes, we help students build confidence and excel in one of the most crucial academic subjects.",
-    whyChooseUs: [
-      "Qualified and Passionate Tutors: Our Physics tutors are highly qualified professionals with extensive teaching experience in various international and Indian boards. They bring energy and clarity to every lesson, making even the toughest physics problems easier to solve.",
-      "Personalized Lesson Plans: Each student has a unique learning style. Our tutors assess the individual needs and tailor the lesson plans accordingly.",
-      "Interactive One-on-One Sessions: Our online Physics tutoring is conducted through interactive, one-on-one classes that provide personalized attention and create a distraction-free environment for optimal learning.",
-      "Flexible Scheduling Across Time Zones: We accommodate schedules from different time zones including Dubai, Doha, New York, London, Toronto, Sydney, and Mumbai to ensure maximum convenience for parents and students.",
-      "Performance-Oriented Approach: Our focus is on improving academic performance. Regular assessments, instant feedback, error analysis, and exam-specific strategies help students achieve higher grades.",
-      "Affordable and Transparent Pricing: We offer premium Physics tutoring services at affordable rates with no hidden costs.",
-      "Safe and Secure Online Learning Platform: We use secure platforms like Zoom and Google Meet for classes, supported by digital whiteboards and real-time collaboration tools.",
-    ],
-    boardTutoring: {
-      CBSE: "We follow the NCERT syllabus and help students from Classes 6 to 12 with topics like Mechanics, Thermodynamics, Waves, and Optics.",
-      IB: "We assist IB students with SL and HL Physics, covering topics like Forces, Energy, and Quantum Theory.",
-      IGCSE:
-        "Our tutors help IGCSE students understand key areas like Forces, Energy, and Motion.",
-      ICSE: "We provide detailed tutoring in Mechanics, Optics, and Thermodynamics for ICSE students.",
-      ISE: "Our ISE tutoring includes advanced topics such as Fluid Mechanics and Nuclear Physics.",
-    },
-    globalCoverage: [
-      "UAE (United Arab Emirates): Dubai, Abu Dhabi, Sharjah, Al Ain",
-      "Qatar: Doha, Al Wakrah, Al Rayyan",
-      "USA: New York, Texas, California, Florida, Illinois",
-      "UK: London, Birmingham, Leeds, Manchester",
-      "Canada: Toronto, Vancouver, Ottawa, Calgary",
-      "Australia: Sydney, Melbourne, Perth, Brisbane",
-      "India: Delhi, Mumbai, Hyderabad, Chennai, Bangalore, Pune, and more",
-    ],
-    howItWorks: [
-      "Step 1: Free Initial Assessment",
-      "Step 2: Tutor Matching",
-      "Step 3: Personalized Online Classes",
-      "Step 4: Regular Assignments & Feedback",
-      "Step 5: Exam Preparation",
-    ],
-    testimonials: [
-      {
-        name: "Mrs. Iqbal",
-        location: "Dubai",
-        message:
-          "Vikas Institute helped my son transition smoothly from ICSE to IGCSE Physics. The tutor was extremely knowledgeable and patient.",
-      },
-      {
-        name: "Mr. Henry",
-        location: "London",
-        message:
-          "The IB Physics support my daughter received was incredible. She scored a 7 in her finals!",
-      },
-      {
-        name: "Mrs. Desai",
-        location: "New York",
-        message:
-          "Highly recommended! Vikas Institute made the tutoring process stress-free and my son showed great improvement.",
-      },
-    ],
-    competitiveExamPreparation: [
-      "JEE Mains and Advanced",
-      "NEET Physics",
-      "SAT Physics",
-      "AP Physics",
-      "Physics Olympiads",
-    ],
-    benefits: [
-      "Experienced and board-certified Physics tutors",
-      "Flexible timings and rescheduling options",
-      "One-on-one learning in a distraction-free environment",
-      "Regular updates for parents and guardians",
-      "Emphasis on core concepts and exam strategies",
-      "Affordable rates and customized learning plans",
-      "Safe, secure, and engaging learning experience",
-    ],
-    contact: {
-      phone: "+91 8427373281",
-      email: "info@vikasinstitute.in",
-      website: "www.vikasinstitute.in",
-    },
-    closingLine:
-      "Help your child fall in love with Physics and achieve academic success.",
-    slogan: "VIKAS INSTITUTE — Unlocking Physics Brilliance Across the Globe.",
-  },
-];
+// const onlineChemistryTutors = [
+//   {
+//     mainHeadding: "Online Chemistry Tutors",
+//     mainTitle:
+//       "Hello, Are you Looking for  Online Chemistry Tutor for Class 11th, 12th, CUET, NEET, IIT-JEE for  CBSE, IB, IGCSE, ICSE, ISE Board Students ?",
+//     welcomeMessage:
+//       "Welcome to Online Personal Chemistry Tutor @ Aditya Sir, your ultimate destination for top-quality online Chemistry tutoring. We specialize in Chemistry education for students following the CBSE, IB, IGCSE, ICSE, and ISE curricula across the UAE, Qatar, USA, UK, Canada, Australia, and India. With our team of highly skilled Chemistry tutors, customized learning plans, and student-focused online classes, we help students build confidence and excel in one of the most crucial academic subjects.",
+//     whyChooseUs: [
+//       "Qualified and Passionate Tutors: Our Chemistry tutors are highly qualified professionals with extensive teaching experience in various international and Indian boards. They bring energy and clarity to every lesson, making even the toughest Chemistry problems easier to solve.",
+//       "Personalized Lesson Plans: Each student has a unique learning style. Our tutors assess the individual needs and tailor the lesson plans accordingly.",
+//       "Interactive One-on-One Sessions: Our online Chemistry tutoring is conducted through interactive, one-on-one classes that provide personalized attention and create a distraction-free environment for optimal learning.",
+//       "Flexible Scheduling Across Time Zones: We accommodate schedules from different time zones including Dubai, Doha, New York, London, Toronto, Sydney, and Mumbai to ensure maximum convenience for parents and students.",
+//       "Performance-Oriented Approach: Our focus is on improving academic performance. Regular assessments, instant feedback, error analysis, and exam-specific strategies help students achieve higher grades.",
+//       "Affordable and Transparent Pricing: We offer premium Chemistry tutoring services at affordable rates with no hidden costs.",
+//       "Safe and Secure Online Learning Platform: We use secure platforms like Zoom and Google Meet for classes, supported by digital whiteboards and real-time collaboration tools.",
+//     ],
+//     boardTutoring: {
+//       CBSE: "We follow the NCERT syllabus and help students from Classes 6 to 12 with topics like Mechanics, Thermodynamics, Waves, and Optics.",
+//       IB: "We assist IB students with SL and HL Chemistry, covering topics like Forces, Energy, and Quantum Theory.",
+//       IGCSE:
+//         "Our tutors help IGCSE students understand key areas like Forces, Energy, and Motion.",
+//       ICSE: "We provide detailed tutoring in Mechanics, Optics, and Thermodynamics for ICSE students.",
+//       ISE: "Our ISE tutoring includes advanced topics such as Fluid Mechanics and Nuclear Chemistry.",
+//     },
+//     globalCoverage: [
+//       "UAE (United Arab Emirates): Dubai, Abu Dhabi, Sharjah, Al Ain",
+//       "Qatar: Doha, Al Wakrah, Al Rayyan",
+//       "USA: New York, Texas, California, Florida, Illinois",
+//       "UK: London, Birmingham, Leeds, Manchester",
+//       "Canada: Toronto, Vancouver, Ottawa, Calgary",
+//       "Australia: Sydney, Melbourne, Perth, Brisbane",
+//       "India: Delhi, Mumbai, Hyderabad, Chennai, Bangalore, Pune, and more",
+//     ],
+//     howItWorks: [
+//       "Step 1: Free Initial Assessment",
+//       "Step 2: Tutor Matching",
+//       "Step 3: Personalized Online Classes",
+//       "Step 4: Regular Assignments & Feedback",
+//       "Step 5: Exam Preparation",
+//     ],
+//     testimonials: [
+//       {
+//         name: "Mrs. Iqbal",
+//         location: "Dubai",
+//         message:
+//           "Aditya Sir helped my son transition smoothly from ICSE to IGCSE Chemistry. The tutor was extremely knowledgeable and patient.",
+//       },
+//       {
+//         name: "Mr. Henry",
+//         location: "London",
+//         message:
+//           "The IB Chemistry support my daughter received was incredible. She scored a 7 in her finals!",
+//       },
+//       {
+//         name: "Mrs. Desai",
+//         location: "New York",
+//         message:
+//           "Highly recommended! Aditya Sir made the tutoring process stress-free and my son showed great improvement.",
+//       },
+//     ],
+//     competitiveExamPreparation: [
+//       "JEE Mains and Advanced",
+//       "NEET Chemistry",
+//       "SAT Chemistry",
+//       "AP Chemistry",
+//       "Chemistry Olympiads",
+//     ],
+//     benefits: [
+//       "Experienced and board-certified Chemistry tutors",
+//       "Flexible timings and rescheduling options",
+//       "One-on-one learning in a distraction-free environment",
+//       "Regular updates for parents and guardians",
+//       "Emphasis on core concepts and exam strategies",
+//       "Affordable rates and customized learning plans",
+//       "Safe, secure, and engaging learning experience",
+//     ],
+//     contact: {
+//       phone: "+91 8427373281",
+//       email: "info@vikasinstitute.in",
+//       website: "www.vikasinstitute.in",
+//     },
+//     closingLine:
+//       "Help your child fall in love with Chemistry and achieve academic success.",
+//     slogan: "Aditya Sir — Unlocking Chemistry Brilliance Across the Globe.",
+//   },
+// ];
 
 // You can create similar data for chemistry, math, and biology
 
@@ -97,7 +97,7 @@ const onlineChemistryTutors = [
     mainTitle:
       "Hello, Are you Looking for  Online Chemistry Tutor for Class 11th, 12th, CUET, NEET, IIT-JEE for  CBSE, IB, IGCSE, ICSE, ISE Board Students ?",
     welcomeMessage:
-      "Welcome to Online Personal Chemistry Tutors @ Vikas Institute, your premier platform for top-notch online Chemistry tutoring. We provide expert tutoring for students pursuing CBSE, IB, IGCSE, ICSE, and ISE curricula, and our online Chemistry classes are tailored for students in the UAE, Qatar, USA, UK, Canada, Australia, and India. With experienced tutors, customized lesson plans, and one-on-one attention, we ensure your child gains a solid understanding of Chemistry and excels academically.",
+      "Welcome to Online Personal Chemistry Tutors @ Aditya Sir, your premier platform for top-notch online Chemistry tutoring. We provide expert tutoring for students pursuing CBSE, IB, IGCSE, ICSE, and ISE curricula, and our online Chemistry classes are tailored for students in the UAE, Qatar, USA, UK, Canada, Australia, and India. With experienced tutors, customized lesson plans, and one-on-one attention, we ensure your child gains a solid understanding of Chemistry and excels academically.",
 
     whyChooseUs: [
       "Expert Chemistry Tutors: Our team includes subject matter experts with advanced degrees in Chemistry and years of teaching experience. They are well-versed with the syllabi of CBSE, IB, IGCSE, ICSE, and ISE, ensuring your child receives the best guidance.",
@@ -137,9 +137,9 @@ const onlineChemistryTutors = [
     ],
 
     testimonials: [
-      "My son is in Class 11 CBSE and struggled with Organic Chemistry. Thanks to Vikas Institute, he not only improved his marks but also began to enjoy the subject. — Mrs. Kapoor, Dubai",
-      "The IB Chemistry tutor we found through Vikas Institute is amazing. She explains tough concepts clearly and helped my daughter score a 6 in HL. — Mr. Baker, UK",
-      "As a working parent in the US, I wanted someone reliable and consistent to help my child with Chemistry. Vikas Institute exceeded our expectations. — Mrs. Raina, California",
+      "My son is in Class 11 CBSE and struggled with Organic Chemistry. Thanks to Aditya Sir, he not only improved his marks but also began to enjoy the subject. — Mrs. Kapoor, Dubai",
+      "The IB Chemistry tutor we found through Aditya Sir is amazing. She explains tough concepts clearly and helped my daughter score a 6 in HL. — Mr. Baker, UK",
+      "As a working parent in the US, I wanted someone reliable and consistent to help my child with Chemistry. Aditya Sir exceeded our expectations. — Mrs. Raina, California",
     ],
 
     competitiveExamPreparation: [
@@ -166,10 +166,10 @@ const onlineChemistryTutors = [
     },
 
     closingLine:
-      "Join hundreds of successful students from around the world who trust Vikas Institute for online Chemistry tutoring. Book your Free Demo Class today and take the first step toward academic success!",
+      "Join hundreds of successful students from around the world who trust Aditya Sir for online Chemistry tutoring. Book your Free Demo Class today and take the first step toward academic success!",
 
     slogan:
-      "VIKAS INSTITUTE — Empowering Future Scientists Through Online Tutoring.",
+      "Aditya Sir — Empowering Future Scientists Through Online Tutoring.",
   },
 ];
 
@@ -178,7 +178,7 @@ const onlineMathsTutors = [
     mainHeadding: "Online Math Tutors",
     mainTitle:
       "Hello, Are you Looking for  Online Maths Tutor for Class 11th, 12th, CUET, NEET, IIT-JEE for  CBSE, IB, IGCSE, ICSE, ISE Board Students ?",
-    welcomeMessage: `Welcome to Online Personal Maths Tutor @ Vikas Institute, your ultimate destination for top-quality online Maths tutoring. We specialize in Mathematics education for students following the CBSE, IB, IGCSE, ICSE, and ISE curricula across the UAE, Qatar, USA, UK, Canada, Australia, and India. With our team of highly skilled Maths tutors, customized learning plans, and student-focused online classes, we help students build confidence and excel in one of the most crucial academic subjects.`,
+    welcomeMessage: `Welcome to Online Personal Maths Tutor @ Aditya Sir, your ultimate destination for top-quality online Maths tutoring. We specialize in Mathematics education for students following the CBSE, IB, IGCSE, ICSE, and ISE curricula across the UAE, Qatar, USA, UK, Canada, Australia, and India. With our team of highly skilled Maths tutors, customized learning plans, and student-focused online classes, we help students build confidence and excel in one of the most crucial academic subjects.`,
 
     whyChooseUs: [
       "Qualified and Passionate Tutors: Our Maths tutors are highly qualified professionals with extensive teaching experience in various international and Indian boards. They bring energy and clarity to every lesson, making even the toughest math problems easier to solve.",
@@ -222,19 +222,19 @@ const onlineMathsTutors = [
         name: "Mrs. Iqbal",
         location: "Dubai",
         message:
-          "Vikas Institute helped my son in the UAE transition smoothly from ICSE to IGCSE Maths. The tutor was extremely knowledgeable and patient.",
+          "Aditya Sir helped my son in the UAE transition smoothly from ICSE to IGCSE Maths. The tutor was extremely knowledgeable and patient.",
       },
       {
         name: "Mr. Henry",
         location: "London",
         message:
-          "The IB Maths support my daughter received from Vikas Institute was incredible. She scored a 7 in her finals!",
+          "The IB Maths support my daughter received from Aditya Sir was incredible. She scored a 7 in her finals!",
       },
       {
         name: "Mrs. Desai",
         location: "New York",
         message:
-          "As a parent in the USA, I was looking for a reliable online Maths tutor for my son. Vikas Institute made the process easy and stress-free. Highly recommended!",
+          "As a parent in the USA, I was looking for a reliable online Maths tutor for my son. Aditya Sir made the process easy and stress-free. Highly recommended!",
       },
     ],
 
@@ -268,7 +268,7 @@ const onlineMathsTutors = [
       "Book your Free Trial Session today and give your child the Vikas advantage!",
 
     slogan:
-      "VIKAS INSTITUTE — Unlocking Mathematical Brilliance Across the Globe.",
+      "Aditya Sir — Unlocking Mathematical Brilliance Across the Globe.",
   },
 ];
 
@@ -278,7 +278,7 @@ const onlineBiologyTutors = [
     mainTitle:
       "Hello, Are you Looking for  Online Biology Tutor for Class 11th, 12th, CUET, NEET, IIT-JEE for  CBSE, IB, IGCSE, ICSE, ISE Board Students ?",
     welcomeMessage:
-      "Welcome to Online Biology Tutors @ Vikas Institute, the trusted name in online Biology tutoring for students of CBSE, IB, IGCSE, ICSE, and ISE curricula. Whether you're based in the UAE, Qatar, USA, UK, Canada, Australia, or India, we bring expert Biology tutors right to your screen with flexible, one-on-one, and result-oriented online classes. At Vikas Institute, our mission is to empower students with a strong foundation in Biology through conceptual learning, critical thinking, and exam-ready strategies.",
+      "Welcome to Online Biology Tutors @ Aditya Sir, the trusted name in online Biology tutoring for students of CBSE, IB, IGCSE, ICSE, and ISE curricula. Whether you're based in the UAE, Qatar, USA, UK, Canada, Australia, or India, we bring expert Biology tutors right to your screen with flexible, one-on-one, and result-oriented online classes. At Aditya Sir, our mission is to empower students with a strong foundation in Biology through conceptual learning, critical thinking, and exam-ready strategies.",
     whyChooseUs: [
       "Certified and Experienced Biology Tutors: Our tutors are handpicked professionals with degrees in Life Sciences, Biotechnology, Medicine, and Education. They are highly experienced in teaching school-level Biology and preparing students for national and international exams.",
       "Board-Specific Lesson Plans: We offer specialized lesson plans tailored to each curriculum—whether it’s the NCERT-based CBSE syllabus or the rigorous IB and IGCSE structures.",
@@ -317,7 +317,7 @@ const onlineBiologyTutors = [
         name: "Mrs. Bansal",
         location: "Delhi",
         message:
-          "My daughter struggled with Class 12 Biology, but after joining Vikas Institute, she scored 92%. The tutor was patient, knowledgeable, and supportive.",
+          "My daughter struggled with Class 12 Biology, but after joining Aditya Sir, she scored 92%. The tutor was patient, knowledgeable, and supportive.",
       },
       {
         name: "Mr. Clarke",
@@ -329,7 +329,7 @@ const onlineBiologyTutors = [
         name: "Mrs. Reema",
         location: "Doha",
         message:
-          "Finding a good Biology tutor in Qatar was hard until we found Vikas Institute. The online sessions are as effective as in-person coaching.",
+          "Finding a good Biology tutor in Qatar was hard until we found Aditya Sir. The online sessions are as effective as in-person coaching.",
       },
     ],
     competitiveExamPreparation: [
@@ -354,19 +354,19 @@ const onlineBiologyTutors = [
       website: "www.vikasinstitute.in",
     },
     closingLine:
-      "Let your child thrive in Biology with expert help from Vikas Institute.",
+      "Let your child thrive in Biology with expert help from Aditya Sir.",
     slogan:
-      "VIKAS INSTITUTE — Empowering Young Biologists for a Better Tomorrow.",
+      "Aditya Sir — Empowering Young Biologists for a Better Tomorrow.",
   },
 ];
 const testimonials = [
   {
-    text: "The best online physics classes I've ever attended! The tutor made everything so easy to understand.",
+    text: "The best online Chemistry classes I've ever attended! The tutor made everything so easy to understand.",
     author: "Aarav, Grade 12, CBSE",
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "Thanks to Vikas Institute, my daughter scored 95% in IGCSE Physics. Brilliant teaching!",
+    text: "Thanks to Aditya Sir, my daughter scored 95% in IGCSE Chemistry. Brilliant teaching!",
     author: "Mrs. Kapoor, Dubai",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -391,7 +391,7 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "I never thought online tutoring could be so effective. Thank you Vikas Institute!",
+    text: "I never thought online tutoring could be so effective. Thank you Aditya Sir!",
     author: "Sarah, Canada",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -401,7 +401,7 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "Great teaching methods and regular assessments. My son is finally enjoying Physics!",
+    text: "Great teaching methods and regular assessments. My son is finally enjoying Chemistry!",
     author: "Mr. Thomas, Australia",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -411,7 +411,7 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "The tutor's clarity and patience turned my fear of Physics into a strength.",
+    text: "The tutor's clarity and patience turned my fear of Chemistry into a strength.",
     author: "Aditya, Grade 11, IB",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -431,7 +431,7 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "My grades improved within a month. Vikas Institute is a blessing!",
+    text: "My grades improved within a month. Aditya Sir is a blessing!",
     author: "Ishita, ICSE Board",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -441,7 +441,7 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "I tried other platforms, but nothing compares to Vikas Institute’s personalized support.",
+    text: "I tried other platforms, but nothing compares to Aditya Sir’s personalized support.",
     author: "Tanisha, Canada",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -456,13 +456,13 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "I finally understand the logic behind physics. It’s fun now!",
+    text: "I finally understand the logic behind Chemistry. It’s fun now!",
     author: "Neel, Australia",
     star: "⭐⭐⭐⭐⭐",
   },
   {
     text: "They make difficult topics so easy to digest. Highly recommended.",
-    author: "Fatima, IB HL Physics",
+    author: "Fatima, IB HL Chemistry",
     star: "⭐⭐⭐⭐⭐",
   },
   {
@@ -476,7 +476,7 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "Vikas Institute helped my son move from average to A+ in just one term.",
+    text: "Aditya Sir helped my son move from average to A+ in just one term.",
     author: "Mrs. Das, UK",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -486,7 +486,7 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "Thanks to them, I got into my dream university with top grades in Physics.",
+    text: "Thanks to them, I got into my dream university with top grades in Chemistry.",
     author: "Kritika, USA",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -501,18 +501,18 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "100% satisfaction. Vikas Institute really cares about your progress.",
+    text: "100% satisfaction. Aditya Sir really cares about your progress.",
     author: "Manoj, Delhi",
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "They helped me understand Physics in a way my school never could.",
+    text: "They helped me understand Chemistry in a way my school never could.",
     author: "Divya, Canada",
     star: "⭐⭐⭐⭐⭐",
   },
   {
     text: "Their use of real-life examples makes abstract topics easier to grasp.",
-    author: "Aryan, IB Physics SL",
+    author: "Aryan, IB Chemistry SL",
     star: "⭐⭐⭐⭐⭐",
   },
   {
@@ -546,12 +546,12 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "They helped me score a 7 in IB Physics. Highly recommend!",
+    text: "They helped me score a 7 in IB Chemistry. Highly recommend!",
     author: "Lena, Australia",
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "From weak in Physics to top of my class—thank you Vikas Institute!",
+    text: "From weak in Chemistry to top of my class—thank you Aditya Sir!",
     author: "Prateek, India",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -566,7 +566,7 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "My child now looks forward to her Physics classes. That's a first!",
+    text: "My child now looks forward to her Chemistry classes. That's a first!",
     author: "Mrs. Kaur, Canada",
     star: "⭐⭐⭐⭐⭐",
   },
@@ -597,7 +597,7 @@ const testimonials = [
   },
   {
     text: "Perfect balance of theory and application-based learning.",
-    author: "Jatin, IB HL Physics",
+    author: "Jatin, IB HL Chemistry",
     star: "⭐⭐⭐⭐⭐",
   },
   {
@@ -606,18 +606,18 @@ const testimonials = [
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "Vikas Institute tutors go above and beyond—thank you!",
+    text: "Aditya Sir tutors go above and beyond—thank you!",
     author: "Sneha, Australia",
     star: "⭐⭐⭐⭐⭐",
   },
   {
-    text: "From struggling to excelling in Physics—all thanks to Vikas Institute!",
+    text: "From struggling to excelling in Chemistry—all thanks to Aditya Sir!",
     author: "Nidhi, Grade 10",
     star: "⭐⭐⭐⭐⭐",
   },
 ];
 export {
-  onlinePhysicsTutors,
+  // onlineChemistryTutors,
   onlineChemistryTutors,
   onlineMathsTutors,
   onlineBiologyTutors,

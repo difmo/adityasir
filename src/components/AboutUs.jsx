@@ -190,7 +190,7 @@ const AboutUs = () => {
               {
                 title: "Crack Competitive Exams",
                 img: "https://chemistrytutors.in/assets/img/images/examicon.png",
-                desc: "With Dr. Kumar’s teachings, all the topics important for the upcoming competitive exams will be covered."
+                desc: "With Aditya Sir  teachings, all the topics important for the upcoming competitive exams will be covered."
               },
               {
                 title: "Intensive Coaching",
