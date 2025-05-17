@@ -116,7 +116,8 @@ export default function Footer() {
                   placeholder="Your Email Address"
                   className="w-full p-2 rounded-l bg-white text-black outline-none"
                 />
-                <button className="bg-orange-500 rounded-r px-6 py-2 text-white font-semibold whitespace-nowrap">
+                <button 
+                className="bg-orange-500 rounded-r px-6 py-2 text-white font-semibold whitespace-nowrap">
                   Sign Up
                 </button>
               </div>
