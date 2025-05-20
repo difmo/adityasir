@@ -32,7 +32,7 @@ const socialLinks = [
 const footerLinks = [
   { url: "https://vikasinstitute.in", name: "Online Science Tutors" },
   { url: "https://vikasinstitute.in/online-chemistry-tutors", name: "Online Chemistry Tutors" },
-  { url: "https://vikasinstitute.in/online-physics-tutors", name: "Online Pysics Tutors" },
+  { url: "https://vikasinstitute.in/online-physics-tutors", name: "Online Physics Tutors" },
   { url: "https://vikasinstitute.in/online-maths-tutors", name: "Online Maths Tutors" },
   { url: "https://vikasinstitute.in/online-biology-tutors", name: "Online Biology Tutors" },
   { url: "https://vikasinstitute.in/contact-us", name: "Contact Us" },
